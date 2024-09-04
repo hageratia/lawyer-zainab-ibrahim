@@ -101,7 +101,7 @@ const FreeConsultaion = () => {
                 onSubmit={consultaionForm.handleSubmit}
               >
                 <div className="row mb-3">
-                  <div className="col-md-6">
+                  <div className="col-md-6 col-sm-12">
                     <input
                       type="text"
                       className="form-control"
@@ -118,7 +118,7 @@ const FreeConsultaion = () => {
                       </div>
                     ) : null}
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-6 col-sm-12 mt-3 mt-md-0">
                     <input
                       type="text"
                       name="phone"
