@@ -44,7 +44,7 @@ const CertificatesPage = () => {
                 transition={{ duration: 0.5 }}
               >
                 <img src={adl} alt="وزارة العدل" />
-                <p className="small-paragraph">
+                <p className="small-paragraph" dir="rtl">
                   محامية موثقة ومعتمدة لــدى وزارة العـــــــــدل
                 </p>
               </motion.div>
@@ -57,7 +57,7 @@ const CertificatesPage = () => {
                 transition={{ duration: 0.5 }}
               >
                 <img src={hy2a} alt="الهيئة السعودية للمحامين" />
-                <p className="small-paragraph">
+                <p className="small-paragraph" dir="rtl">
                   عضو أساسي بالهيئة السعودية للمحاميـن
                 </p>
               </motion.div>
@@ -70,7 +70,7 @@ const CertificatesPage = () => {
                 transition={{ duration: 0.5 }}
               >
                 <img src={hebra} alt="خبرة" />
-                <p className="small-paragraph">
+                <p className="small-paragraph" dir="rtl">
                   تعد المحامية زينب موثقة ومعتمدة لدى منصة خبرة وهذه المنصة
                   تعتبر جزءا من الجهود المستمــرة في المملكة العربية السعودية
                   لتحديث وتحسـين القطاع القضائي، وتعزيز الثقة في عمليات التحكيم
@@ -86,15 +86,18 @@ const CertificatesPage = () => {
                 transition={{ duration: 0.5 }}
               >
                 <img src={mwsk} alt="الموثق" />
-                <p className="small-paragraph">
-                  تُعد المحامية زينب إبراهيم موثقة ومعتمدة لدى منصة الموثق،وهي
+                <p className="small-paragraph" dir="rtl">
+                  تُعد المحامية زينب إبراهيم موثقة ومعتمدة لدى منصة الموثق، وهي
                   خدمة إلكترونية تمكن الأفراد والشركات من الحصول على خدمات
                   التوثيق العدلي وتوثيق معاملاتهم القانونية في أي وقت وأي مكان.
                 </p>
               </motion.div>
             </div>
           </div>
-          <div className="row text-center m-auto justify-content-between mt-2 icons">
+          <div
+            className="row text-center m-auto justify-content-between mt-2 icons"
+            dir="rtl"
+          >
             <div className="col-lg-3 col-md-4 col-sm-6">
               <motion.div
                 ref={icon1Ref}
@@ -107,7 +110,7 @@ const CertificatesPage = () => {
                 </div>
                 <p className="text-center">
                   نضمــــن لك إجـــــــــراءات سلســـــــة وسريـعـــــــــة
-                  لإفراغ عقاراتك،مع ضمان حقوقـــــــك القانونيـــــة.
+                  لإفراغ عقاراتك ،مع ضمان حقوقـــــــك القانونيـــــة.
                 </p>
               </motion.div>
             </div>
@@ -172,7 +175,7 @@ const CertificatesPage = () => {
                   <img src={icon5} alt="" />
                 </div>
                 <p className="text-center">
-                  نساعدك في تأسيس شركتك بكل سهولـــة وسرعــة،من خـــــــلال
+                  نساعدك في تأسيس شركتك بكل سهولـــة وسرعــة، من خـــــــلال
                   إعداد العقود اللازمـة وتسجيـــــل الشركــــة.
                 </p>
               </motion.div>
