@@ -1,0 +1,318 @@
+@font-face {
+  font-family: 'Bahij TheSansArabic';
+  src: url('./assets/fonts/Bahij_TheSansArabic/Bahij_TheSansArabic-Bold.ttf') format('truetype'),
+    url('./assets/fonts/Bahij_TheSansArabic/Bahij_TheSansArabic-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bahij TheSansArabic';
+  src: url('./assets/fonts/Bahij_TheSansArabic/Bahij_TheSansArabic-Light.ttf') format('truetype'),
+    url('./assets/fonts/Bahij_TheSansArabic/Bahij_TheSansArabic-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bahij TheSansArabic';
+  src: url('./assets/fonts/Bahij_TheSansArabic/Bahij_TheSansArabic-SemiLight.ttf') format('truetype'),
+    url('./assets/fonts/Bahij_TheSansArabic/Bahij_TheSansArabic-SemiLight.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bahij TheSansArabic';
+  src: url('./assets/fonts/Bahij_TheSansArabic/Bahij_TheSansArabic-SemiBold.ttf') format('truetype'),
+    url('./assets/fonts/Bahij_TheSansArabic/Bahij_TheSansArabic-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bahij TheSansArabic';
+  src: url('./assets/fonts/Bahij_TheSansArabic/Bahij_TheSansArabic-ExtraBold.ttf') format('truetype'),
+    url('./assets/fonts/Bahij_TheSansArabic/Bahij_TheSansArabic-ExtraBold.woff') format('woff');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: white;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #25213b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bolder {
+  font-weight: bolder;
+  font-size: 80px;
+}
+
+body,
+html {
+  font-family: 'Bahij TheSansArabic', sans-serif;
+  font-weight: 500;
+  overflow-x: hidden !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.bg-main {
+  background-color: #25255E;
+}
+
+line {
+  background-color: #25213b;
+  width: 100%;
+  height: 1px;
+  position: relative;
+}
+
+.line::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(139, 92, 246, 0.4) 20%, #25213b 52%, rgba(139, 92, 246, 0.4) 81%);
+}
+
+
+.text-main {
+  color: rgba(37, 37, 94, 1);
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.bg-brown {
+  background-color: rgba(166, 125, 82, 1);
+  font-size: 13px !important;
+}
+
+.text-brown {
+  color: rgba(166, 125, 82, 1);
+}
+
+.justified-text {
+  text-align: justify;
+  text-align-last: right;
+}
+
+.navbar-logo {
+  width: 110px;
+  height: auto;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-item a {
+  font-weight: 300 !important;
+  font-size: large;
+  text-align: center;
+  display: block;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 0.3s;
+}
+
+.nav-link.active {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.home {
+  background-image: url(./assets/home.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.layout {
+  background-color: rgba(37, 37, 94, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.about-sec {
+  width: 90%;
+  margin: auto;
+}
+
+.about-sec .border-brown {
+  position: relative;
+  display: inline-block;
+}
+
+.about-sec .border-brown::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: solid 4px rgba(166, 125, 82, 1);
+  border-radius: 250px 10px 250px 250px;
+  z-index: 2;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.about-sec .border-brown img {
+  border-radius: 250px 250px 10px 250px;
+  z-index: 1;
+  position: relative;
+  display: block;
+}
+
+.small-paragraph {
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1)
+}
+
+.last-two-words {
+  align-self: center;
+}
+
+#certificates .icons img {
+  transition: all .5s ease-in-out;
+}
+
+#certificates .icons img:hover {
+  transform: scale(1.2);
+}
+
+#features .content h3 {
+  word-spacing: 8px;
+  line-height: 45px;
+}
+
+#blogs .cards {
+  border: solid 1px #7373ab;
+  transition: all .5s ease-in-out;
+}
+
+#blogs .cards:hover {
+  transform: scale(1.05);
+}
+
+
+
+#free {
+  background-color: #25255E;
+  width: 100%;
+}
+
+.contact-section {
+  background-color: #2b2a5e;
+  border-radius: 10px;
+}
+
+.map-container {
+  position: relative;
+  background-color: #fff;
+  padding: 5px;
+  width: 90%;
+  margin: auto;
+}
+
+.address {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #39386e;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border: 2px solid #39386e;
+  background-color: #39386e;
+  color: #aaa;
+}
+
+.contact-form .form-control::placeholder {
+  color: #aaa;
+}
+
+.contact-form button.btn-secondary {
+  background-color: #39386e;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.contact-form button.btn-primary {
+  background-color: #fff;
+  color: #2b2a5e;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+footer {
+  background-color: #D9D9D9;
+}
+
+footer .social-media a {
+  background-color: rgba(37, 37, 94, 0.5);
+}
