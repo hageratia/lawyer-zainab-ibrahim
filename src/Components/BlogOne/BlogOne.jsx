@@ -1,7 +1,11 @@
+import { useEffect } from "react";
 import Footer from "../FooterPage/FooterPage";
 import NavBlogs from "../NavBlogs/NavBlogs";
 
 const BlogOne = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <NavBlogs />
