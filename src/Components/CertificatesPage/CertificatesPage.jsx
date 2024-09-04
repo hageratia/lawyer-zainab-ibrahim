@@ -49,7 +49,7 @@ const CertificatesPage = () => {
                 </p>
               </motion.div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            <div className="col-lg-6 col-md-6 col-sm-12">
               <motion.div
                 ref={hy2aRef}
                 initial={{ opacity: 0, x: 100 }}
@@ -62,7 +62,7 @@ const CertificatesPage = () => {
                 </p>
               </motion.div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            <div className="col-lg-6 col-md-6 col-sm-12">
               <motion.div
                 ref={hebraRef}
                 initial={{ opacity: 0, x: -100 }}
@@ -78,7 +78,7 @@ const CertificatesPage = () => {
                 </p>
               </motion.div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            <div className="col-lg-6 col-md-6 col-sm-12">
               <motion.div
                 ref={mwskRef}
                 initial={{ opacity: 0, x: 100 }}
