@@ -36,7 +36,7 @@ const CertificatesPage = () => {
             <h2 className="text-main fw-bold">محامون و موثقون معتمدون لدى</h2>
           </div>
           <div className="row text-center m-auto justify-content-between">
-            <div className="col-lg-6 col-md-12 col-sm-6">
+            <div className="col-lg-6 col-md-6 col-sm-12">
               <motion.div
                 ref={adlRef}
                 initial={{ opacity: 0, x: -100 }}
