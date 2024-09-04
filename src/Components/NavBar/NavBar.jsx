@@ -121,8 +121,8 @@ const NavBar = () => {
               </li>
               <li className="nav-item">
                 <div className="nav-link text-white font-bold text-center bg-brown p-2">
-                  مواعيد العمل من الاحد الى الخميس <br /> من 9 صباحاً الى 5
-                  مساءً
+                  مواعيد العمل من الأحد الى الخميس <br /> من 9 صباحاً الى 5
+                  مساءاً
                 </div>
               </li>
             </ul>
