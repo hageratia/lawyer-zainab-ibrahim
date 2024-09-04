@@ -82,7 +82,7 @@ const FooterPage = () => {
                   </li>
                   <li className="me-2 d-flex justify-content-center align-items-center">
                     <a
-                      href="https://www.tiktok.com/t/ZS2SX2pTo/"
+                      href="https://www.tiktok.com/@zebrahim20?_t=8pQcuxvepow&_r=1"
                       className="text-decoration-none text-white"
                     >
                       <i className="fa-brands fa-tiktok p-2"></i>
